@@ -24,7 +24,7 @@ public class SelenideTest {
         inputField.pressEnter();
 
         // Убеждаемся, что на странице присутствует ссылка на selenide
-        $("main").shouldHave(Condition.text(contitionText));
+        $(".main").shouldHave(Condition.text(contitionText));
     }
 
 }
